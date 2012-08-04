@@ -1,10 +1,10 @@
 {
-  "description": "Removes all search providers from overview, except for applications and settings", 
-  "name": "Remove Search Provider", 
+  "description": "Remove all search providers from overview, except for applications and settings",
+  "name": "Remove Search Provider",
   "shell-version": [
     "3.4"
-  ], 
-  "url": "https://github.com/seleznev/remove-search-providers", 
-  "uuid": "remove-search-providers@pushcorn.com", 
-  "version": 1
+  ],
+  "url": "https://github.com/seleznev/remove-search-providers",
+  "uuid": "remove-search-providers@pushcorn.com",
+  "version": 1.1
 }

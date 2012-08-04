@@ -18,7 +18,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-const Overview =  imports.ui.main.overview;
+const overview =  imports.ui.main.overview;
 const allProviders = Overview._viewSelector._searchTab._searchSystem._providers;
 
 let removesProviders = new Array();
@@ -28,9 +28,9 @@ function init() {
 }
 
 function enable() {
-    this.removesProviders.forEach( function(i){ Overview.removeSearchProvider(i); } );
+    this.removesProviders.forEach( function(i){ overview.removeSearchProvider(i); } );
 }
 
 function disable() {
-    this.removesProviders.forEach( function(i){ Overview.addSearchProvider(i); } );
+    this.removesProviders.forEach( function(i){ overview.addSearchProvider(i); } );
 }
