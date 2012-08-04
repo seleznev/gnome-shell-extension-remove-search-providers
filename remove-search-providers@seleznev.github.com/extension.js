@@ -19,7 +19,7 @@
  */
 
 const overview =  imports.ui.main.overview;
-const allProviders = Overview._viewSelector._searchTab._searchSystem._providers;
+const allProviders = overview._viewSelector._searchTab._searchSystem._providers;
 
 let removesProviders = new Array();
 
